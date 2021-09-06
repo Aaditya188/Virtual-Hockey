@@ -1,0 +1,110 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #2980b9;
+    color: white;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    height: 100%;
+}
+
+body, .popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+.pink {
+    color: rgb(200, 0, 100);
+    font-weight: bold;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+    background-color: rgb(116, 194, 225);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.popup h1 {
+    text-align: center;
+}
+
+.popup h4 {
+    font-weight: 100;
+    text-align: center;
+}
+
+.popup p {
+    line-height: 20px;
+}
+
+.popup input {
+    border: 0;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+}
+
+.popup #name {
+    margin-top: 20px;
+}
+
+.popup #btn {
+    background-color: rgb(200, 0, 100);
+    color: #fff;
+    font-weight: bold;
+}
+
+.popup #btn:hover {
+    cursor:pointer;
+}
+
+.popup small{
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #0b0e21;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer span {
+    color: #e74c3c;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
