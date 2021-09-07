@@ -5,7 +5,9 @@
 }
 
 body, html {
-    background-color: #2980b9;
+    background-color: #f6d327;
+    background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
+    
     color: white;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     height: 100%;
@@ -44,7 +46,8 @@ p {
 }
 
 .popup {
-    background-color: rgb(116, 194, 225);
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
     border-radius: 5px;
     padding: 30px;
 }
@@ -90,7 +93,8 @@ p {
 }
 
 footer {
-    background-color: #0b0e21;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);    
     padding: 20px;
     position: fixed;
     left: 0;
@@ -106,5 +110,75 @@ footer span {
 
 footer a {
     color: #2980b9;
+    font-weight: 800;
+    -webkit-animation:colorchange 20s infinite alternate;
     text-decoration: none;
 }
+.awesome {
+      
+    font-family: futura;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    color:#313131;
+    position: absolute;
+    -webkit-animation:colorchange 20s infinite alternate;
+    
+    
+  }
+
+@-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }

@@ -111,8 +111,6 @@ function createNewUser(_id) {
 
 function getTeam() {
     let teamName;
-    
-    // If teal team has more users, add to pink
     if(teams[1].count > teams[0].count){
         teamName = teams[0].name;
         teams[0].count++;
@@ -125,9 +123,9 @@ function getTeam() {
 }
 
 function scored(team) {
-    if(team === teams[0].name)      // purple scorred
+    if(team === teams[0].name)
         teams[0].score++;
-    else if(team === teams[1].name) // teal scorred
+    else if(team === teams[1].name)
         teams[1].score++;
     
     if(teams[0].score === 5 || teams[1].score === 5){ // End of one round / Reset score

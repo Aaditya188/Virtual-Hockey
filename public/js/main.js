@@ -51,7 +51,7 @@ function setup() {
 }
 
 function draw() {
-    background('#2980b9');
+    background('#1e3b70');
     drawField();
     drawScore();
     
@@ -156,7 +156,7 @@ function keyReleased() {
 
 function drawField() {
     // Draw field margins
-    fill('#00680A');
+    fill('#228B22');
     strokeWeight(6);
     stroke(255);
     rect(fieldOffset, 3, width - fieldOffset * 2, height - 6);
@@ -170,7 +170,7 @@ function drawField() {
     
     // Draw middle point
     fill(255);
-    ellipse(width/2, height/2, 10, 10);
+    ellipse(width/2, height/2, 30, 30);
     
     // Drawing the 2 goals
     stroke(255);
